@@ -1,0 +1,33 @@
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  min-height: 100%;
+}
+
+.csvInput{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow-y: auto;
+  max-width: 33%;
+  padding: 25px;
+}
+
+.csvOutput{
+  display: flex;
+  flex-grow: 1;
+  padding: 25px;
+  max-width: 67%;
+}
+
+.statementLabel{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
